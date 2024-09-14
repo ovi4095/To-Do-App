@@ -46,15 +46,13 @@ This is a simple To-Do app developed using **React** and **Vite**. The app allow
    ```bash
    npm run dev
 
-   or
- 
-   ```bash
-   npm start
 - Or using yarn: 
 
    ```bash
    yarn dev 
-
+- Or useing custom script:
+  ``` bash
+   npm start
 2. Open the app in your browser:
 - After starting the server, the app will be available at:
   

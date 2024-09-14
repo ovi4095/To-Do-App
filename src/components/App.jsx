@@ -6,7 +6,10 @@ import Sidebar from "./Sidebar";
 import TaskList from "./TaskList";
 
 function App() {
-  const tasksFromLocalStorage = JSON.parse(localStorage.getItem("tasks"));
+  const tasksFromLocalStorage =
+    JSON.parse(localStorage.getItem("tasks")) === null
+      ? []
+      : JSON.parse(localStorage.getItem("tasks"));
 
   const [tasks, setTasks] = useState(tasksFromLocalStorage);
 

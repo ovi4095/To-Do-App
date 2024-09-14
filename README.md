@@ -44,8 +44,11 @@ This is a simple To-Do app developed using **React** and **Vite**. The app allow
 - Using npm:
 
    ```bash
-   npm run dev 
-   or 
+   npm run dev
+
+   or
+ 
+   ```bash
    npm start
 - Or using yarn: 
 

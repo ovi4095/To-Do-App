@@ -26,11 +26,11 @@ This is a simple To-Do app developed using **React** and **Vite**. The app allow
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/todo-app.git
+   git clone "https://github.com/ovi4095/To-Do-App.git"
 
 2. Navigate to the project directory:
    ```bash
-   cd todo-app
+   cd To-Do-App
 3. Install dependencies: 
 - Using npm
    ```bash
@@ -44,7 +44,9 @@ This is a simple To-Do app developed using **React** and **Vite**. The app allow
 - Using npm:
 
    ```bash
-   npm run dev
+   npm run dev 
+   or 
+   npm start
 - Or using yarn: 
 
    ```bash
@@ -54,7 +56,7 @@ This is a simple To-Do app developed using **React** and **Vite**. The app allow
 - After starting the server, the app will be available at:
   
   ```arduino
-  http://localhost:3000 
+  http://localhost:"given port" 
   
   
 Open this URL in your browser to interact with the app.
